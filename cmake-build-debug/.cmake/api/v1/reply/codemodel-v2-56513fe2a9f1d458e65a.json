@@ -1,0 +1,110 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "day1",
+					"jsonFile" : "directory-day1-Debug-798d26bc79b46e099b55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "day1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "day2",
+					"jsonFile" : "directory-day2-Debug-d1b3499465e0186d5988.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "day2",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "advent_of_code",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "day1::@bd7862378d2619bbc29c",
+					"jsonFile" : "target-day1-Debug-12adbaf3c7f8a4a155f2.json",
+					"name" : "day1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "day2-p1::@ad8edd197ca7f54d7dc0",
+					"jsonFile" : "target-day2-p1-Debug-61616bf1b77170f6fb2e.json",
+					"name" : "day2-p1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "day2-p2::@ad8edd197ca7f54d7dc0",
+					"jsonFile" : "target-day2-p2-Debug-53796a635c9a1a45a2c0.json",
+					"name" : "day2-p2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/CLionProjects/advent-of-code/cmake-build-debug",
+		"source" : "D:/CLionProjects/advent-of-code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
