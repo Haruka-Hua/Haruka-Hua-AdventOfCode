@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -49,6 +50,22 @@
 						1,
 						2
 					]
+				},
+				{
+					"build" : "day3",
+					"jsonFile" : "directory-day3-Debug-be02ff8a5faa844a7fec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "day3",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
 				}
 			],
 			"name" : "Debug",
@@ -59,14 +76,17 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "advent_of_code",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -91,6 +111,20 @@
 					"id" : "day2-p2::@ad8edd197ca7f54d7dc0",
 					"jsonFile" : "target-day2-p2-Debug-53796a635c9a1a45a2c0.json",
 					"name" : "day2-p2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "day3-p1::@d856e9e7413e2eb86966",
+					"jsonFile" : "target-day3-p1-Debug-72d4ff346e63f1ba77a9.json",
+					"name" : "day3-p1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "day3-p2::@d856e9e7413e2eb86966",
+					"jsonFile" : "target-day3-p2-Debug-eed32f873ace458cb115.json",
+					"name" : "day3-p2",
 					"projectIndex" : 0
 				}
 			]
