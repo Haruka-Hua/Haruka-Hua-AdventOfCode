@@ -313,6 +313,100 @@ build day3/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build day3/rebuild_cache: phony day3/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/CLionProjects/advent-of-code/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target day4-p1
+
+
+#############################################
+# Order-only phony target for day4-p1
+
+build cmake_object_order_depends_target_day4-p1: phony || .
+
+build day4/CMakeFiles/day4-p1.dir/day4-p1.c.obj: C_COMPILER__day4-p1_unscanned_Debug D$:/CLionProjects/advent-of-code/day4/day4-p1.c || cmake_object_order_depends_target_day4-p1
+  DEP_FILE = day4\CMakeFiles\day4-p1.dir\day4-p1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = day4\CMakeFiles\day4-p1.dir
+  OBJECT_FILE_DIR = day4\CMakeFiles\day4-p1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target day4-p1
+
+
+#############################################
+# Link the executable day4\day4-p1.exe
+
+build day4/day4-p1.exe: C_EXECUTABLE_LINKER__day4-p1_Debug day4/CMakeFiles/day4-p1.dir/day4-p1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = day4\CMakeFiles\day4-p1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = day4\day4-p1.exe
+  TARGET_IMPLIB = day4\libday4-p1.dll.a
+  TARGET_PDB = day4-p1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target day4-p2
+
+
+#############################################
+# Order-only phony target for day4-p2
+
+build cmake_object_order_depends_target_day4-p2: phony || .
+
+build day4/CMakeFiles/day4-p2.dir/day4-p2.c.obj: C_COMPILER__day4-p2_unscanned_Debug D$:/CLionProjects/advent-of-code/day4/day4-p2.c || cmake_object_order_depends_target_day4-p2
+  DEP_FILE = day4\CMakeFiles\day4-p2.dir\day4-p2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = day4\CMakeFiles\day4-p2.dir
+  OBJECT_FILE_DIR = day4\CMakeFiles\day4-p2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target day4-p2
+
+
+#############################################
+# Link the executable day4\day4-p2.exe
+
+build day4/day4-p2.exe: C_EXECUTABLE_LINKER__day4-p2_Debug day4/CMakeFiles/day4-p2.dir/day4-p2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = day4\CMakeFiles\day4-p2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = day4\day4-p2.exe
+  TARGET_IMPLIB = day4\libday4-p2.dll.a
+  TARGET_PDB = day4-p2.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build day4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\CLionProjects\advent-of-code\cmake-build-debug\day4 && C:\Users\tianyao\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build day4/edit_cache: phony day4/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build day4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\CLionProjects\advent-of-code\cmake-build-debug\day4 && C:\Users\tianyao\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\CLionProjects\advent-of-code -BD:\CLionProjects\advent-of-code\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build day4/rebuild_cache: phony day4/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build day1: phony day1/day1.exe
@@ -335,6 +429,14 @@ build day3-p2: phony day3/day3-p2.exe
 
 build day3-p2.exe: phony day3/day3-p2.exe
 
+build day4-p1: phony day4/day4-p1.exe
+
+build day4-p1.exe: phony day4/day4-p1.exe
+
+build day4-p2: phony day4/day4-p2.exe
+
+build day4-p2.exe: phony day4/day4-p2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -343,7 +445,7 @@ build day3-p2.exe: phony day3/day3-p2.exe
 #############################################
 # Folder: D:/CLionProjects/advent-of-code/cmake-build-debug
 
-build all: phony day1/all day2/all day3/all
+build all: phony day1/all day2/all day3/all day4/all
 
 # =============================================================================
 
@@ -367,20 +469,27 @@ build day2/all: phony day2/day2-p1.exe day2/day2-p2.exe
 build day3/all: phony day3/day3-p1.exe day3/day3-p2.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/CLionProjects/advent-of-code/cmake-build-debug/day4
+
+build day4/all: phony day4/day4-p1.exe day4/day4-p2.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/CLionProjects/advent-of-code/CMakeLists.txt D$:/CLionProjects/advent-of-code/day1/CMakeLists.txt D$:/CLionProjects/advent-of-code/day2/CMakeLists.txt D$:/CLionProjects/advent-of-code/day3/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/CLionProjects/advent-of-code/CMakeLists.txt D$:/CLionProjects/advent-of-code/day1/CMakeLists.txt D$:/CLionProjects/advent-of-code/day2/CMakeLists.txt D$:/CLionProjects/advent-of-code/day3/CMakeLists.txt D$:/CLionProjects/advent-of-code/day4/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/CLionProjects/advent-of-code/CMakeLists.txt D$:/CLionProjects/advent-of-code/day1/CMakeLists.txt D$:/CLionProjects/advent-of-code/day2/CMakeLists.txt D$:/CLionProjects/advent-of-code/day3/CMakeLists.txt: phony
+build C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Users/tianyao/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/CLionProjects/advent-of-code/CMakeLists.txt D$:/CLionProjects/advent-of-code/day1/CMakeLists.txt D$:/CLionProjects/advent-of-code/day2/CMakeLists.txt D$:/CLionProjects/advent-of-code/day3/CMakeLists.txt D$:/CLionProjects/advent-of-code/day4/CMakeLists.txt: phony
 
 
 #############################################
