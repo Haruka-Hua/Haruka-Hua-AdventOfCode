@@ -15,3 +15,7 @@ D:/CLionProjects/advent-of-code/cmake-build-debug/day4/CMakeFiles/day4-p1.dir
 D:/CLionProjects/advent-of-code/cmake-build-debug/day4/CMakeFiles/day4-p2.dir
 D:/CLionProjects/advent-of-code/cmake-build-debug/day4/CMakeFiles/edit_cache.dir
 D:/CLionProjects/advent-of-code/cmake-build-debug/day4/CMakeFiles/rebuild_cache.dir
+D:/CLionProjects/advent-of-code/cmake-build-debug/day5/CMakeFiles/day5-p1.dir
+D:/CLionProjects/advent-of-code/cmake-build-debug/day5/CMakeFiles/day5-p2.dir
+D:/CLionProjects/advent-of-code/cmake-build-debug/day5/CMakeFiles/edit_cache.dir
+D:/CLionProjects/advent-of-code/cmake-build-debug/day5/CMakeFiles/rebuild_cache.dir
